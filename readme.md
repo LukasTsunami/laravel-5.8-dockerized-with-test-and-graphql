@@ -10,6 +10,18 @@
 A Laravel 5.8 application, configured with postgresql,
 adminer, using ngnix server with php-fpm-7.3
 
+## Which are the test tools used here?
+
+Khalan Framework and Phony for mocking
+
+## Which graphql server is configured here?
+
+The [lighthouse graphql](https://lighthouse-php.com/) server
+
+## How to configure schema?
+
+Change graphql/schema.graphql file
+
 ## How to use?
 
 Copy `.env.example` to `.env` and execute the `docker-compose up -d` command
