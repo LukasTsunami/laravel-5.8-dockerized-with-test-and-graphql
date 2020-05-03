@@ -7,8 +7,8 @@ services:
       context: ./__images__/php-fpm
       args:
         - PHP_VERSION=7.3
-        - INSTALL_XDEBUG=TRUE
-        - INSTALL_PCOV=TRUE
+        - INSTALL_XDEBUG=FALSE
+        - INSTALL_PCOV=false
         - INSTALL_MEMCACHED=FALSE
         - INSTALL_PGSQL=TRUE
         - INSTALL_PG_CLIENT=TRUE
