@@ -15,7 +15,7 @@ services:
         - USER_ID=1000
         - USER_GROUP=1000
     volumes:
-      - .:/var/www
+      - .:/var/www:cached
       - ./__images__/php-fpm/php7.3.ini:/usr/local/etc/php/php.ini
     expose:
       - "9000"
